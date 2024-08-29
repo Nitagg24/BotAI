@@ -67,8 +67,8 @@ const InitialPage = () => {
         <img
           className="size-16 dark:drop-shadow-xl"
           style={{
-            filter: "drop-shadow(#000000/15 -4px 4px 10px)",
-            BorderRadius: "50%",
+            filter: "drop-shadow(-4px 4px 10px #00000015)",
+            borderRadius: "50%",
           }}
           src="/logo.png"
         />
