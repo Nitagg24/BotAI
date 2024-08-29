@@ -180,7 +180,7 @@ const Navbar = () => {
           <Link to="/">
             <img
               className=" size-8"
-              style={{ filter: "drop-shadow(#000000/25 0 4px 4px)" }}
+              style={{ filter: "drop-shadow(#000000/25 0 4px 4px)",borderRadius:"10px"}}
               src="/logo.png"
             />
           </Link>

@@ -137,10 +137,12 @@ const ConversationCard = ({ chat, isResponse, isReadOnly }) => {
     >
       {/* USER OR BOT AVATAR */}
       <img
-        className=" size-16"
-        src={isResponse ? "/logo.png" : "/user.png"}
-        alt="user avatar"
-      />
+  className="size-16"
+  style={{ borderRadius: "50%" }}
+  src={isResponse ? "/logo.png" : "/user.png"}
+  alt="user avatar"
+/>
+
 
       {/* MAIN CONVERSATION TEXT CONTAINER */}
       <div className="w-full flex flex-col justify-center items-start gap-2">
